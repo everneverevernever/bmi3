@@ -126,6 +126,7 @@
     <Content Include="Resources\map-icon-information.png" />
     <Content Include="Resources\map-icon-medical.png" />
     <Content Include="Resources\map-icon-start.png" />
+    <None Include="Resources\map-icon-start1.png" />
     <Content Include="Resources\map-icon-toilets.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

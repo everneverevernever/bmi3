@@ -31,5 +31,18 @@ namespace BMI_Калькулятор
         {
             Console.WriteLine("da");
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Map.ActiveForm.Hide();
+            Form1 MyForm2 = new Form1();
+            MyForm2.ShowDialog();
+            Close();
+        }
     }
 }
